@@ -30,5 +30,3 @@ while edad<0 or edad>100 :
         break                               # break permite que si la condicion se cumple, el programa termina en ese momento
 print("gracias, puedes pasar")
 print("edad del usuario "+str(edad ))
-
-#

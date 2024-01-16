@@ -61,3 +61,12 @@ if "SQL" not in leng:
     print("Falta SQL en la lista")
 else:
     print("SQL esta en la lista")
+
+# otra forma que tambien funciona
+    
+leng="Java, Python, PHP"
+
+if not "SQL" in leng:
+    print("Falta SQL en la lista")
+else:
+    print("SQL esta en la lista")
