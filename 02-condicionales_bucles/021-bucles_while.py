@@ -3,9 +3,7 @@ import math
 # Bucles
 # existen 2 tipos
 
-# bucle determinado
-# se sabe cuantas veces se ejecutara
-
+#Bucle While
 # bucle indeterminado
 # dependera de las circunstancias durante la ejecucion del programa
 
