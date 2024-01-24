@@ -46,7 +46,17 @@ while num<0:
     if intentos==5:
         break
 
+# aqui se toma en cuenta q mientras el numero sea menor que cero
+# este bucle se ejecutara, y adicional en la variable intentos
+# se guardaran la cantidad de veces que se repita el bucle
+# adicional el break cierra el bucle en cuanto intentos sea igual a 5
+
 if intentos==5:
     print("Lo siento, no puedo realizar el calculo")
 else:
     print(math.sqrt(num))
+
+# y aqui agrega un condicional que si se cumple, que intentos sea
+# igual a 5, envia el mensaje de error, de lo contrario
+# no se cumplira el bucle y pasara a ejecutar la raiz cuadrada del numero
+# mediante la funcion math.sqrt
