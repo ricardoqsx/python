@@ -1,5 +1,4 @@
-# instrucciones continue, pass y else
-    
+# instrucciones continue, pass y else    
 # continue
 
 nombre= "ricardo quiroz"
