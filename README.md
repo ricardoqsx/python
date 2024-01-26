@@ -8,3 +8,4 @@ se dividiran los cursos en secciones
 - Practicas
 - Sintaxis Basica
 - Condicionales / Bucles
+- Conexion a una DB
