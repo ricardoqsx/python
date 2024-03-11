@@ -1,4 +1,6 @@
 # Condicionales: if
+
+```
 import os
 
 os.system('clear')
@@ -20,16 +22,18 @@ print(eval(int(nota_alum)))             # imprime y ejecuta funcion evaluacion
                                         # notese que se puede hacer la conversion al capturar datos con input 
                                         # o pasar el valor al llamar a la funcion
                                         # para al final el valor retornado imprimirlo
+```
 
-# if salarios admin<jefe<director<presi <<= concatenacion de valores, aqui se evaluan 2 condiciones
-# si los salarios van en escala (osea, cada uno mayor que otro)
+if salarios admin<jefe<director<presi <<= concatenacion de valores, aqui se evaluan 2 condiciones
+si los salarios van en escala (osea, cada uno mayor que otro)
 
-# if asignatura in (1, 2, 3): <<= aqui se compara la variable con los valores "en", cuando son
-# strings se pone entre comillado separado por comas
+if asignatura in (1, 2, 3): <<= aqui se compara la variable con los valores "en", cuando son
+strings se pone entre comillado separado por comas
 
-# otro ejemplo:
-# con operadores and y or
+### otro ejemplo:
+- con operadores and y or
 
+```
 print("obtencion de licencia de conducir")
 
 edad=int(input("escriba su edad: "))
@@ -40,33 +44,41 @@ if 18<edad<90 and vision=="si": # Aqui se deben cumplir todas las condiciones
     print("pilla tu licencia")
 else:
     print("on boy, no vas")
+```
 
 # operadores not y in
 
+```
 trabajadores=["Paula","Manuel","Pedro","Ana","Sandra"]
 
 if "Pedro" in trabajadores:             # sirve para hacer busquedas en una lista, el IN se traduciria como EN
     print("Si, Pedro esta en la lista") # si se cumple, devuelve este mensaje
 else:
     print("Pedro no esta en la lista")
+```
 
-# tambien se puede buscar en una cadena de texto, si trabajadores
-# fuese una sola cadena corrida
+- tambien se puede buscar en una cadena de texto, si trabajadores
+- fuese una sola cadena corrida
 
-# otro operador es NOT el cual se debe combinar con IN, ejemplo
-# en este ejemplo se va a la inversa, si sql no esta imprime mensaje
+- otro operador es NOT el cual se debe combinar con IN, ejemplo
+- en este ejemplo se va a la inversa, si sql no esta imprime mensaje
+
+```
 leng="Java, Python, PHP"
 
 if "SQL" not in leng:
     print("Falta SQL en la lista")
 else:
     print("SQL esta en la lista")
+```
 
-# otra forma que tambien funciona
-    
+- otra forma que tambien funciona
+
+```
 leng="Java, Python, PHP"
 
 if not "SQL" in leng:
     print("Falta SQL en la lista")
 else:
     print("SQL esta en la lista")
+```
