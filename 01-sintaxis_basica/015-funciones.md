@@ -1,17 +1,17 @@
 # Funciones
-    - es un cojunto de lineas de codigo agrupadas que funcionan como una unidad realizando una tarea especifica
-    - pueden devolver valores
-    - pueden tener parametros/argumentos
-    - tambien se les denomina "metodos"
+- es un cojunto de lineas de codigo agrupadas que funcionan como una unidad realizando una tarea especifica
+- pueden devolver valores
+- pueden tener parametros/argumentos
+- tambien se les denomina "metodos"
 
 # Utilidad
-    - Reutilizar codigo en caso necesario
-    - dividir el codigo en bloques logicos
-    - simplificar el codigo
+- Reutilizar codigo en caso necesario
+- dividir el codigo en bloques logicos
+- simplificar el codigo
 
 # tipos de funciones
-    - predefinidas (ejemplo: print, len, str, etc)
-    - propias
+- predefinidas (ejemplo: print, len, str, etc)
+- propias (las que creamos para encapsular codigo)
 
 # sintaxis
 
@@ -33,7 +33,7 @@ funcion()                   # solo se ejecutara la funcion al momento de ser lla
 ### en casos de que reciben parametros o return
 
 ```
-def func2(parametro): 
+def funcion2(parametro): 
     parametro = "mensaje de la funcion"
     return parametro # esta funcion solo retorna la string
 ```
