@@ -41,7 +41,9 @@ def funcion2(parametro):
 - por defecto esto no imprimiria nada ya que no tiene la funcion print 
 - para imprimir el mnsaje en pantalla hay varias formas
 
-```print(func2())```
+```
+print(func2())
+```
 
 ### o la otra forma
 
